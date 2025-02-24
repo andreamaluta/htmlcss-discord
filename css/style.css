@@ -59,17 +59,12 @@ li{
     width: 100%;
 }
 
-/* .first-full-content{
-    height: 400px;
-    border: 1px dotted black;
-} */
-
 .c-right-main{
-    width: 45%;
+    width: 40%;
 }
 
 .c-left-main{
-    width: 55%;
+    width: 60%;
 }
 
 /* fine main */
@@ -123,6 +118,10 @@ li{
 
 .align-center{
     text-align: center;
+}
+
+.align-left{
+    text-align: left;
 }
 
 .align-right{
@@ -232,6 +231,11 @@ li{
 
 .w-img{
     width: 100%;
+}
+
+h2{
+    font-size: 40px;
+    line-height: 40px;
 }
 
 button{
