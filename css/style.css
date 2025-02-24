@@ -4,31 +4,43 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: "Atkinson Hyperlegible Next", serif;
+}
+
 header{
     padding: 15px 0px;
-    background-color: rgb(97, 203, 203);
+    background-color: #255EE9;
 }
 
 .container{
-    width: 800px;
+    width: 1000px;
     margin: 0 auto;
     display: flex;
 }
 
 .c-left-head{
-    width: 30%;
+    width: 20%;
 }
 
 .c-mid-head{
-    width: 40%;
+    width: 60%;
 }
 
 .c-right-head{
-    width: 30%;
+    width: 20%;
 }
 
 .content{
     border: 1px dotted black;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
 }
 
 /* fine header */
@@ -81,6 +93,11 @@ header{
 
 
 /* utilities */
+
+.d-flex-list{
+    display: flex;
+    justify-content: space-around;
+}
 
 .d-flex{
     display: flex;
@@ -176,4 +193,6 @@ header{
     height: 50px;
 }
 
-
+button{
+    
+}
