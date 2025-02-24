@@ -149,7 +149,7 @@ li{
 }
 
 .bg-grey{
-    background-color: rgb(150, 150, 150);
+    background-color: #F6F6F6;
 }
 
 .bg-green{
@@ -236,6 +236,7 @@ li{
 h2{
     font-size: 40px;
     line-height: 40px;
+    margin-bottom: 25px;
 }
 
 button{
