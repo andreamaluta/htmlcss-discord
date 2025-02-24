@@ -279,6 +279,10 @@ h4{
     margin-bottom: 15px;
 }
 
+.bt{
+    border-top: 2px solid #7289DA;
+}
+
 button{
     border: none;
     border-radius: 20px;
