@@ -65,11 +65,11 @@ li{
 } */
 
 .c-right-main{
-    width: 40%;
+    width: 45%;
 }
 
 .c-left-main{
-    width: 60%;
+    width: 55%;
 }
 
 /* fine main */
@@ -101,17 +101,12 @@ li{
     display: flex;
 }
 
-/* .column{
-    flex-direction: column;
-} */
-
-/* .center-column{
-    align-items: center;
-} */
-
-
 .content-center{
     align-content: center;
+}
+
+.justi-center{
+    justify-content: center;
 }
 
 .justi-around{
@@ -233,6 +228,10 @@ li{
 
 .f-size-20{
     font-size: 20px;
+}
+
+.w-img{
+    width: 100%;
 }
 
 button{
