@@ -31,10 +31,6 @@ header{
     width: 20%;
 }
 
-.content{
-    border: 1px dotted black;
-}
-
 ul{
     list-style: none;
 }
@@ -77,18 +73,6 @@ ul{
     width: 15%;
 }
 
-.content-foot{
-    border: 1px dotted white;
-}
-
-.third-full-content{
-    border: 1px solid black;
-}
-
-.last-content{
-    border: 1px dotted black;
-}
-
 .footer-li{
     margin-bottom: 10px;
     font-size: 15px;
@@ -96,6 +80,8 @@ ul{
 
 
 /* utilities */
+
+/* flexbox */
 
 .d-flex{
     display: flex;
@@ -133,47 +119,32 @@ ul{
     text-align: right;
 }
 
-.bg-goldenrog{
-    background-color: goldenrod;
-}
+/* background color */
 
 .bg-cobalto{
     background-color: #7289DA;
-}
-
-.bg-blue{
-    background-color: blue;
 }
 
 .bg-lightblue{
     background-color: rgb(74, 91, 242);
 }
 
-.bg-pink{
-    background-color: pink;
-}
-
 .bg-grey{
     background-color: #F6F6F6;
-}
-
-.bg-green{
-    background-color: green;
 }
 
 .bg-black{
     background-color: black;
 }
 
-.bg-acqua{
-    background-color: aqua;
-}
 
 .bg-button{
     background-image: url(../img/stars.svg);
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+/* text color */
 
 .txt-white{
     color: white;
@@ -182,6 +153,8 @@ ul{
 .txt-cobalto{
     color: #7289DA;
 }
+
+/* padding */
 
 .pd-20{
     padding: 20px;
@@ -215,17 +188,7 @@ ul{
     padding: 20px 20px 30px 20px;
 }
 
-.hg-250{
-    height: 250px;
-}
-
-.hg-400{
-    height: 400px;
-}
-
-.hg-50{
-    height: 50px;
-}
+/* margin */
 
 .my-30{
     margin-bottom: 30px;
@@ -252,9 +215,13 @@ ul{
     margin-bottom: 100px;
 }
 
+/* font size */
+
 .f-size-20{
     font-size: 20px;
 }
+
+/* larghezze immagini */
 
 .w-img{
     width: 100%;
@@ -263,6 +230,8 @@ ul{
 .w-img-5{
     width: 5%;
 }
+
+/* stile dei titoli */
 
 h2{
     font-size: 40px;
@@ -282,6 +251,8 @@ h4{
 .bt{
     border-top: 2px solid #7289DA;
 }
+
+/* Bottone */
 
 button{
     border: none;
